@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\..\TD-2015-09-26\TD\Assets\Scripts\Text.cs">
+    <Files>
+      <File FileName="..\..\..\..\TD-2015-09-26\TD\Assets\Scripts\Main.cs" Line="76" Column="3" />
+      <File FileName="..\..\..\..\TD-2015-09-26\TD\Assets\Scripts\EnemyBehavior.cs" Line="26" Column="82" />
+      <File FileName="..\..\..\..\TD-2015-09-26\TD\Assets\Scripts\Text.cs" Line="21" Column="4" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

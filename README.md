@@ -7,3 +7,8 @@ ___
 ###Português:
 ___
 Jogo de Nave 2D feito em Unity. No jogo o player luta contra robôs alienígenas utilizando as armas da nave como o ultra laser.
+
+<p align="center">
+  <img src="http://i.imgur.com/S7dFZjw.png/">
+</p>
+

@@ -5,7 +5,7 @@
 	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
 	<ProductVersion>10.0.20506</ProductVersion>
 	<SchemaVersion>2.0</SchemaVersion>
-	<ProjectGuid>{04C9DE55-46EB-E6E9-02E3-DB9BCCA974E7}</ProjectGuid>
+	<ProjectGuid>{98843B13-FAC3-8D2C-A535-668F50C66053}</ProjectGuid>
 	<OutputType>Library</OutputType>
 	<AppDesignerFolder>Properties</AppDesignerFolder>
 	<RootNamespace></RootNamespace>
@@ -39,20 +39,23 @@
 	<Reference Include="System.Core" />
 	<Reference Include="System.Xml.Linq" />
 	<Reference Include="UnityEngine">
-	  <HintPath>C:/Program Files (x86)/Unity/Unity5/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	  <HintPath>C:/Users/Daniel.rodrigues/Downloads/Unity 5/Editor/Data/Managed/UnityEngine.dll</HintPath>
 	</Reference>
 	<Reference Include="UnityEditor">
-	  <HintPath>C:/Program Files (x86)/Unity/Unity5/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	  <HintPath>C:/Users/Daniel.rodrigues/Downloads/Unity 5/Editor/Data/Managed/UnityEditor.dll</HintPath>
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Scripts\B_Behavior.cs" />
      <Compile Include="Assets\Scripts\E_Behavior.cs" />
      <Compile Include="Assets\Scripts\L_Behavior.cs" />
-     <Compile Include="Assets\Scripts\SS_Behavior.cs" />
+     <Compile Include="Assets\Scripts\Main_Behavior.cs" />
+     <Compile Include="Assets\Scripts\PUp_Behavior.cs" />
+     <Compile Include="Assets\Scripts\SSOK_Behavior.cs" />
      <Compile Include="Assets\Scripts\S_Behavior.cs" />
      <Compile Include="Assets\Scripts\Sh_Behavior.cs" />
  <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files (x86)/Unity/Unity5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ <HintPath>C:/Users/Daniel.rodrigues/Downloads/Unity 5/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

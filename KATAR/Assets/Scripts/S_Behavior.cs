@@ -7,7 +7,9 @@ public class S_Behavior : MonoBehaviour {
 	public GameObject Laser;
 	private int S_Type = 0;
 	public bool Ready = true;
-	
+	public float lShots = 0;
+	public int life = 2;
+
 	void Update ()
 	{
 		Movement();
@@ -36,10 +38,10 @@ public class S_Behavior : MonoBehaviour {
 	
 	public void Attack()
 	{
-		if(Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1))
+		if(Input.GetKeyDown(KeyCode.Alpha1) || Input.GetKeyDown(KeyCode.Keypad1) || lShots <= 0)
 			S_Type = 0;
 		
-		if(Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2))
+		if(Input.GetKeyDown(KeyCode.Alpha2) || Input.GetKeyDown(KeyCode.Keypad2) || lShots > 0)
 			S_Type = 1;
 	
 			switch(S_Type)
@@ -60,9 +62,9 @@ public class S_Behavior : MonoBehaviour {
 				}
 				break;
 			}
-			if(Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.O))
+			if(Input.GetKeyUp(KeyCode.Space) || Input.GetKeyUp(KeyCode.O) || lShots <= 0)
 			{
-				Destroy (GameObject.FindWithTag("Laser"));
+				Destroy (GameObject.FindWithTag("LaserP"));
 				Ready = true;
 			}
 	}

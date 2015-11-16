@@ -47,11 +47,13 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\B_Behavior.cs" />
+     <Compile Include="Assets\Scripts\Bg_Behavior.cs" />
      <Compile Include="Assets\Scripts\E_Behavior.cs" />
      <Compile Include="Assets\Scripts\L_Behavior.cs" />
      <Compile Include="Assets\Scripts\Main_Behavior.cs" />
      <Compile Include="Assets\Scripts\PUp_Behavior.cs" />
      <Compile Include="Assets\Scripts\SSOK_Behavior.cs" />
+     <Compile Include="Assets\Scripts\SS_Behavior.cs" />
      <Compile Include="Assets\Scripts\S_Behavior.cs" />
      <Compile Include="Assets\Scripts\Sh_Behavior.cs" />
  <Reference Include="UnityEngine.UI">

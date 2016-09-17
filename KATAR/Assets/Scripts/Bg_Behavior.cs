@@ -15,7 +15,11 @@ public class Bg_Behavior : MonoBehaviour
 		this.transform.position += new Vector3(-1*Time.deltaTime,0,0);
 		if(this.transform.position.x <= -9f && !spawn)
 		{
+<<<<<<< HEAD
 			Instantiate(NewBg,new Vector3(this.transform.position.x + 50f,this.transform.position.y,this.transform.position.z),this.transform.rotation);
+=======
+			Instantiate(NewBg,new Vector3(this.transform.position.x + 35f,this.transform.position.y,this.transform.position.z),this.transform.rotation);
+>>>>>>> origin/master
 			spawn = true;
 		}
 	}

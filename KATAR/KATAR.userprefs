@@ -1,15 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\E_Behavior.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\Bg_Behavior.cs">
     <Files>
-      <File FileName="Assets\Scripts\Main_Behavior.cs" Line="4" Column="8" />
-      <File FileName="Assets\Scripts\B_Behavior.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\E_Behavior.cs" Line="11" Column="67" />
-      <File FileName="Assets\Scripts\L_Behavior.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\PUp_Behavior.cs" Line="23" Column="3" />
-      <File FileName="Assets\Scripts\S_Behavior.cs" Line="67" Column="44" />
-      <File FileName="Assets\Scripts\Sh_Behavior.cs" Line="17" Column="3" />
-      <File FileName="Assets\Scripts\SSOK_Behavior.cs" Line="9" Column="92" />
+      <File FileName="Assets\Scripts\Main_Behavior.cs" Line="28" Column="12" />
+      <File FileName="Assets\Scripts\E_Behavior.cs" Line="29" Column="18" />
+      <File FileName="Assets\Scripts\PUp_Behavior.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\B_Behavior.cs" Line="26" Column="24" />
+      <File FileName="Assets\Scripts\Bg_Behavior.cs" Line="18" Column="64" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

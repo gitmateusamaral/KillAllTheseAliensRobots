@@ -23,7 +23,7 @@ public class B_Behavior : MonoBehaviour
 		if(gameObject.GetComponent<SpriteRenderer>().color.a >= 1)
 		{
 			Destroy(gameObject);
-			if(Random.Range(0,10) <= 1)
+			if(Random.Range(0,20) <= 1)
 			{
 				PUp.transform.position = gameObject.transform.position;
 				Instantiate(PUp);

@@ -14,13 +14,13 @@ public class Main_Behavior : MonoBehaviour
 
 	void Spawn()
 	{
-		e.transform.position = new Vector3 (11,Random.Range(-3.9f,3.2f),0);
+		e.transform.position = new Vector3 (11,-3.8f,0);
 		Instantiate (e);
 	}
 
 	void Update()
 	{
-		SpT -= Time.deltaTime;
+		SpT -= Time.deltaTime*8;
 
 		if(SpT <= 0)
 		{

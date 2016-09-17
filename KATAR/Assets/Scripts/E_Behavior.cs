@@ -13,7 +13,7 @@ public class E_Behavior : MonoBehaviour {
 			l = -l;
 		}
 		
-		transform.Translate(new Vector3(-0.025f,l,0));
+		transform.Translate(new Vector3(-0.05f,l,0));
 		if(this.transform.position.x <= -9.5f)
 		{
 			Destroy(gameObject);
